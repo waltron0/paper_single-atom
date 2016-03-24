@@ -1,0 +1,8 @@
+[0nu]
+The origin of neutrino mass
+
+Neutrinos require physics beyond the standard model
+
+The question of whether neutrinos are Majorana fermions is important .  The most sensitive , in which a nucleus decays by emitting two electrons without accompaniment of neutrinos.  A neutrino is exchanged as a virtual particle, requiring it to be Majorana.  This process also violates conservation of lepton number, an as yet only empirically conserved quantity.
+
+The search for neutrinoless double beta decay ($0nubetabeta$) is the most sensitive approach in determining whether neutrinos are Majorana fermions, an important question in the discovery of physics beyond the standard model, which neutrinos require. ... for the discovery of new physics.  [low backgrounds ... exo, tagging]

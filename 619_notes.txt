@@ -1,0 +1,3 @@
+some notes on the 619-nm peak
+
+	McCaffrey is afraid of depositing at (50?55?) K due to diffusion, and thus an increased signal in those deposits (vs. 11 K) may indicate that it is due to chemical reactions facilitated by diffusion.  But a competing effect would be matrix site shifting, and indeed the 577 and 591 are both higher in these higher-temperature deposits as well, which he has no doubt are due to Ba.  However, we may have some evidence of loss in the annealing cycle up to 48 K in my thesis, of the 619 and 577 in particular, since they had a gain with the first anneal to a lower temperature.  One possibile point is that perhaps depositing at 42+-3 K woulc be better than depositing at 50+-5 K.

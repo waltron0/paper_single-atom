@@ -1,0 +1,18 @@
+- check the ions/pulse number quoted
+- say "though 620 BP" in all captions?
+- have all the refs to parts that are in the other paper?
+- check that 6.1E4 image was really dep. at 50K, etc.
+- need to talk about 619 bleaching?
+- bad if caption has exactly the same text as in thesis?  exactly the same figures?  need some cross-referencing?
+- prolly need to alter text sizes in figures
+- really check numbers (of atoms) -- I just did a scaling on all of them based on the one
+- make the X, e.g. in image example figure caption, like it is in thesis (spacing-wise)
+- someone should double check my wx, wy
+
+OLD:
+- re-do vibration measurement after measuring w0 of 532 (w/ fit to far-field), and its z position, and putting the blade there DO IT RIGHT
+- really do the Ba+ velocity measurement
+- make sure excitspec is really counts, not peak counts
+- excitspec could have Cr3+ on it too
+* probably should just take out the sensitivity plot and have a reference
+- 1st sentence of conclucion:  Ba "in" a...
