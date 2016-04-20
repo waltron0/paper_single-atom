@@ -1,3 +1,8 @@
+- um, maybe just re-check power for the large BaXe ... in the thesis I said 0.6 mW, but that seems to be what's in the LV, meaning it's actually more than that (I assume T/R = 2.17 from 1113, and then just 0.89 --> 1.1 mW)
+- need 5-26 or new for seeing real linearity?
+
+* alter any necessary power quotes, taking out the x1.57 for ones with power meter moved
+
 - check the ions/pulse number quoted
 - say "though 620 BP" in all captions?
 - have all the refs to parts that are in the other paper?
