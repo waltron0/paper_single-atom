@@ -1,5 +1,8 @@
 - um, maybe just re-check power for the large BaXe ... in the thesis I said 0.6 mW, but that seems to be what's in the LV, meaning it's actually more than that (I assume T/R = 2.17 from 1113, and then just 0.89 --> 1.1 mW)
 - need 5-26 or new for seeing real linearity?
+- is linearity --> not Ba molecule mentioned?  should it be?
+- is the precision quoted on the laser w too much?  ho with 2.1 and 2.7?
+- cite mccaffrey on 670 line, saying that they attribute it to Ba molecule?  maybe this isn't dangerous for us, since we see this peak in large deposits (we think we don't deposit enough to get molecules in small Ba deposits).
 
 * alter any necessary power quotes, taking out the x1.57 for ones with power meter moved
 
@@ -8,11 +11,15 @@
 - have all the refs to parts that are in the other paper?
 - check that 6.1E4 image was really dep. at 50K, etc.
 - need to talk about 619 bleaching?
-- bad if caption has exactly the same text as in thesis?  exactly the same figures?  need some cross-referencing?
-- prolly need to alter text sizes in figures
+- bad if caption has exactly the same text as in thesis?  exactly the same figures?  need some cross-referencing? (prolly won't be same since will use new data)
+- prolly need to alter text sizes in figures (do on new data pics)
 - really check numbers (of atoms) -- I just did a scaling on all of them based on the one
 - make the X, e.g. in image example figure caption, like it is in thesis (spacing-wise)
 - someone should double check my wx, wy
+
+
+
+
 
 OLD:
 - re-do vibration measurement after measuring w0 of 532 (w/ fit to far-field), and its z position, and putting the blade there DO IT RIGHT
