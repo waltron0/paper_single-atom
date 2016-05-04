@@ -1,3 +1,4 @@
+- i can't remember if 1h was in response to Bill's 1g comments...
 - um, maybe just re-check power for the large BaXe ... in the thesis I said 0.6 mW, but that seems to be what's in the LV, meaning it's actually more than that (I assume T/R = 2.17 from 1113, and then just 0.89 --> 1.1 mW)
 - need 5-26 or new for seeing real linearity?
 - is linearity --> not Ba molecule mentioned?  should it be?
