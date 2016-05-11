@@ -1,3 +1,7 @@
+- I now think that the 6.1x10^4 image BaXe is not a good juxtaposition -- should you look on a low level for residual?  It seems like this isn't any different really than showing the XeBaXe of smaller deposits
+-- and more on that:  should we use a different run for this?  It's annoying that there isn't a pre-Xe for it, and thus also Bill's sentence "...the background in the next Xe-only deposit is the same as the Xe-only run before this deposit," which is in the paper (1h) is not actually true.
+- may need to specify windows used in a footnote (coming from paragraph where Meller and Rubicon are mentioned)
+- tell Bill:  I use the word "intensity" rather than "power" in last paragraph of Apparatus, because:  the intensity is what is defining of the signal from an atom, and I imagine changing the laser area to see that this is what reduces the background while keeping the same signal from an atom (even though practically that means reducing the laser power while focusing it)
 - gonna do a better bleaching explanation, but also have a good vibes one?  I think you should show the raw signal w/o the extra junk from the shutter signal, can also overlay the shutter signal but make a note about the junk, and justifying why it is not important
 - need doi on all refs, like the one on mccaffrey?
 - i can't remember if 1h was in response to Bill's 1g comments...
