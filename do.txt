@@ -2,6 +2,7 @@ Need from lab:
 - lin:  with vibe shutter, low BG
 - better XeBaXeLarge, I'd say beginning w/ a more mediodre one, then doing a bug one, in case the big one is actually detrimental (and u wanna know that)
 
+- on vibe plots:  20150819 was the first good stuff, but the next was 20160111, and I have so far copied that day's image_ script into one of 420, and changed the dates, but I need to work on it from there.  Chris is also gonna send me output text from his analysis of that day, and also from his vibe data, but he needs new vibe data (accelerometer etc.) which has accel. signal w/o the feedback stuff.
 - want to show scanned images of the surface BG holes?
 - is bleaching of the 619 disccussed? should it be?
 - I now think that the 6.1x10^4 image BaXe is not a good juxtaposition -- should you look on a low level for residual?  It seems like this isn't any different really than showing the XeBaXe of smaller deposits [now I see there is -- many many Ba tage could be similar to one large one here]
