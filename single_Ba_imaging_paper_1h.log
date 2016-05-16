@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.6.6)  16 MAY 2016 13:03
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.6.6)  16 MAY 2016 15:32
 entering extended mode
 **single_Ba_imaging_paper_1h.tex
 (C:\archives\paper_single-atom\single_Ba_imaging_paper_1h.tex
@@ -376,58 +376,58 @@ ine 310.
 (pdftex.def)             Requested size: 225.4804pt x 160.1667pt.
  [5 <C:/archives/paper_single-atom/figures/lego_train_fromthesis.png> <C:/archi
 ves/paper_single-atom/figures/getter_fromthesis_Ar_vs_Ba.png>]
-<figures/vibes_placeholder.png, id=55, 259.7203pt x 577.40718pt>
+<figures/vibes_placeholder.png, id=55, 259.7203pt x 374.90062pt>
 File: figures/vibes_placeholder.png Graphic file (type png)
 
 <use figures/vibes_placeholder.png>
-Package pdftex.def Info: figures/vibes_placeholder.png used on input line 362.
-(pdftex.def)             Requested size: 140.92793pt x 313.30183pt.
+Package pdftex.def Info: figures/vibes_placeholder.png used on input line 356.
+(pdftex.def)             Requested size: 140.92793pt x 203.42152pt.
 
 <figures/vibe_accerlometerSig.png, id=56, 532.23843pt x 346.29375pt>
 File: figures/vibe_accerlometerSig.png Graphic file (type png)
 
 <use figures/vibe_accerlometerSig.png>
-Package pdftex.def Info: figures/vibe_accerlometerSig.png used on input line 36
-8.
+Package pdftex.def Info: figures/vibe_accerlometerSig.png used on input line 37
+0.
 (pdftex.def)             Requested size: 234.8775pt x 152.81885pt.
 
-Overfull \hbox (9.0pt too wide) in paragraph at lines 368--369
+Overfull \hbox (9.0pt too wide) in paragraph at lines 370--371
  [][] 
  []
 
-[6 <C:/archives/paper_single-atom/figures/vibes_placeholder.png>]
+[6 <C:/archives/paper_single-atom/figures/vibes_placeholder.png> <C:/archives/p
+aper_single-atom/figures/vibe_accerlometerSig.png>]
 No file single_Ba_imaging_paper_1h.bbl.
-[7 <C:/archives/paper_single-atom/figures/vibe_accerlometerSig.png>]
-(C:\archives\paper_single-atom\single_Ba_imaging_paper_1h.aux) ) 
+[7] (C:\archives\paper_single-atom\single_Ba_imaging_paper_1h.aux) ) 
 Here is how much of TeX's memory you used:
  4361 strings out of 494045
  59206 string characters out of 3148385
- 144358 words of memory out of 3000000
+ 135946 words of memory out of 3000000
  7594 multiletter control sequences out of 15000+200000
  10657 words of font info for 37 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
  42i,6n,35p,1799b,308s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Fil
-es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTe
-X 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fo
-nts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
-/public/amsfonts/cm/cmbxti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
-c/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfon
-ts/cm/cmmi5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmm
-i7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C
-:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program
- Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files/MiK
-TeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fo
-nts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
-public/amsfonts/cm/cmr9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/ams
-fonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
-/cmsy6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pf
-b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Pro
-gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Fil
-es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti9.pfb>
-Output written on single_Ba_imaging_paper_1h.pdf (7 pages, 509380 bytes).
+<C:/Program
+ Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/M
+iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.
+9/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
+ype1/public/amsfonts/cm/cmbxti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
+ublic/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/am
+sfonts/cm/cmmi5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
+/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi9.pf
+b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Pro
+gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files
+/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.
+9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/cm/cmr9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
+/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
+s/cm/cmsy6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy
+7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:
+/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program
+ Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti9.pfb>
+Output written on single_Ba_imaging_paper_1h.pdf (7 pages, 506946 bytes).
 PDF statistics:
- 124 PDF objects out of 1000 (max. 8388607)
+ 125 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  46 words of extra memory for PDF output out of 10000 (max. 10000000)
 
