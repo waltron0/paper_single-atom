@@ -1,4 +1,10 @@
-- I now think that the 6.1x10^4 image BaXe is not a good juxtaposition -- should you look on a low level for residual?  It seems like this isn't any different really than showing the XeBaXe of smaller deposits
+Need from lab:
+- lin:  with vibe shutter, low BG
+- better XeBaXeLarge, I'd say beginning w/ a more mediodre one, then doing a bug one, in case the big one is actually detrimental (and u wanna know that)
+
+- want to show scanned images of the surface BG holes?
+- is bleaching of the 619 disccussed? should it be?
+- I now think that the 6.1x10^4 image BaXe is not a good juxtaposition -- should you look on a low level for residual?  It seems like this isn't any different really than showing the XeBaXe of smaller deposits [now I see there is -- many many Ba tage could be similar to one large one here]
 -- and more on that:  should we use a different run for this?  It's annoying that there isn't a pre-Xe for it, and thus also Bill's sentence "...the background in the next Xe-only deposit is the same as the Xe-only run before this deposit," which is in the paper (1h) is not actually true.
 - may need to specify windows used in a footnote (coming from paragraph where Meller and Rubicon are mentioned)
 - tell Bill:  I use the word "intensity" rather than "power" in last paragraph of Apparatus, because:  the intensity is what is defining of the signal from an atom, and I imagine changing the laser area to see that this is what reduces the background while keeping the same signal from an atom (even though practically that means reducing the laser power while focusing it)

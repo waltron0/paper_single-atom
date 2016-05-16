@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.6.6)  11 MAY 2016 11:27
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.6.6)  16 MAY 2016 13:03
 entering extended mode
 **single_Ba_imaging_paper_1h.tex
 (C:\archives\paper_single-atom\single_Ba_imaging_paper_1h.tex
@@ -287,7 +287,7 @@ Class revtex4-1 Warning: If you want your PACS to appear in your output, use do
 cument class option showpacs.
 
 [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
-Underfull \hbox (badness 2452) in paragraph at lines 201--202
+Underfull \hbox (badness 2452) in paragraph at lines 202--203
 []\OT1/cmr/m/n/10 The ap-pa-ra-tus for de-posit-ing and ob-serv-ing
  []
 
@@ -300,7 +300,7 @@ rted-to.pdf>
 (epstopdf)                    size: 59375 bytes
 (epstopdf)             Command: <epstopdf --outfile=figures/cryo_inkscape_chris
 _full-eps-converted-to.pdf figures/cryo_inkscape_chris_full.eps>
-(epstopdf)             \includegraphics on input line 204.
+(epstopdf)             \includegraphics on input line 205.
 Package epstopdf Info: Output file is already uptodate.
 
 <figures/cryo_inkscape_chris_full-eps-converted-to.pdf, id=16, 557.08125pt x 48
@@ -309,10 +309,10 @@ File: figures/cryo_inkscape_chris_full-eps-converted-to.pdf Graphic file (type
 pdf)
  <use figures/cryo_inkscape_chris_full-eps-converted-to.pdf>
 Package pdftex.def Info: figures/cryo_inkscape_chris_full-eps-converted-to.pdf 
-used on input line 204.
+used on input line 205.
 (pdftex.def)             Requested size: 234.8775pt x 203.5571pt.
 
-Overfull \hbox (9.0pt too wide) in paragraph at lines 204--205
+Overfull \hbox (9.0pt too wide) in paragraph at lines 205--206
  [][] 
  []
 
@@ -322,99 +322,112 @@ File: figures/imageExamp_fromthesis.png Graphic file (type png)
 
 <use figures/imageExamp_fromthesis.png>
 Package pdftex.def Info: figures/imageExamp_fromthesis.png used on input line 2
-32.
+35.
 (pdftex.def)             Requested size: 140.92793pt x 289.45203pt.
-
-<figures/xebaxe_instantaneous_scrunched.png, id=32, 1120.185pt x 1415.2875pt>
+ [3 <C:/archives/paper_single-atom/figures/imageExamp_fromthesis.png>]
+<figures/xebaxe_instantaneous_scrunched.png, id=36, 1120.185pt x 1415.2875pt>
 File: figures/xebaxe_instantaneous_scrunched.png Graphic file (type png)
 
 <use figures/xebaxe_instantaneous_scrunched.png>
 Package pdftex.def Info: figures/xebaxe_instantaneous_scrunched.png used on inp
-ut line 242.
+ut line 245.
 (pdftex.def)             Requested size: 234.8775pt x 296.74405pt.
 
-Overfull \hbox (9.0pt too wide) in paragraph at lines 242--243
+Overfull \hbox (9.0pt too wide) in paragraph at lines 245--246
  [][] 
  []
 
-<figures/xebaxe_largest_instantaneous.png, id=33, 1702.36pt x 674.52pt>
+<figures/xebaxe_largest_instantaneous.png, id=37, 1702.36pt x 674.52pt>
 File: figures/xebaxe_largest_instantaneous.png Graphic file (type png)
 
 <use figures/xebaxe_largest_instantaneous.png>
 Package pdftex.def Info: figures/xebaxe_largest_instantaneous.png used on input
- line 250.
+ line 253.
 (pdftex.def)             Requested size: 234.8775pt x 93.06326pt.
 
-Overfull \hbox (9.0pt too wide) in paragraph at lines 250--251
+Overfull \hbox (9.0pt too wide) in paragraph at lines 253--254
  [][] 
  []
 
-<figures/lin_just20150807_lin.png, id=34, 798.985pt x 774.895pt>
+<figures/lin_just20150807_lin.png, id=38, 798.985pt x 774.895pt>
 File: figures/lin_just20150807_lin.png Graphic file (type png)
 
 <use figures/lin_just20150807_lin.png>
-Package pdftex.def Info: figures/lin_just20150807_lin.png used on input line 25
-7.
+Package pdftex.def Info: figures/lin_just20150807_lin.png used on input line 26
+0.
 (pdftex.def)             Requested size: 225.4804pt x 218.6836pt.
- [3 <C:/archives/paper_single-atom/figures/imageExamp_fromthesis.png>]
-
-LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 265.
-
-<figures/lego_train_fromthesis.png, id=39, 662.475pt x 731.73375pt>
+ [4 <C:/archives/paper_single-atom/figures/xebaxe_instantaneous_scrunched.png> 
+<C:/archives/paper_single-atom/figures/xebaxe_largest_instantaneous.png> <C:/ar
+chives/paper_single-atom/figures/lin_just20150807_lin.png>]
+<figures/lego_train_fromthesis.png, id=48, 662.475pt x 731.73375pt>
 File: figures/lego_train_fromthesis.png Graphic file (type png)
 
 <use figures/lego_train_fromthesis.png>
 Package pdftex.def Info: figures/lego_train_fromthesis.png used on input line 2
-76.
+81.
 (pdftex.def)             Requested size: 225.4804pt x 249.05415pt.
- [4 <C:/archives/paper_single-atom/figures/xebaxe_instantaneous_scrunched.png> 
-<C:/archives/paper_single-atom/figures/xebaxe_largest_instantaneous.png> <C:/ar
-chives/paper_single-atom/figures/lin_just20150807_lin.png>]
 
-LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 291.
-
-<figures/getter_fromthesis_Ar_vs_Ba.png, id=47, 712.16063pt x 505.89pt>
+<figures/getter_fromthesis_Ar_vs_Ba.png, id=49, 712.16063pt x 505.89pt>
 File: figures/getter_fromthesis_Ar_vs_Ba.png Graphic file (type png)
 
 <use figures/getter_fromthesis_Ar_vs_Ba.png>
 Package pdftex.def Info: figures/getter_fromthesis_Ar_vs_Ba.png used on input l
-ine 303.
+ine 310.
 (pdftex.def)             Requested size: 225.4804pt x 160.1667pt.
  [5 <C:/archives/paper_single-atom/figures/lego_train_fromthesis.png> <C:/archi
 ves/paper_single-atom/figures/getter_fromthesis_Ar_vs_Ba.png>]
+<figures/vibes_placeholder.png, id=55, 259.7203pt x 577.40718pt>
+File: figures/vibes_placeholder.png Graphic file (type png)
+
+<use figures/vibes_placeholder.png>
+Package pdftex.def Info: figures/vibes_placeholder.png used on input line 362.
+(pdftex.def)             Requested size: 140.92793pt x 313.30183pt.
+
+<figures/vibe_accerlometerSig.png, id=56, 532.23843pt x 346.29375pt>
+File: figures/vibe_accerlometerSig.png Graphic file (type png)
+
+<use figures/vibe_accerlometerSig.png>
+Package pdftex.def Info: figures/vibe_accerlometerSig.png used on input line 36
+8.
+(pdftex.def)             Requested size: 234.8775pt x 152.81885pt.
+
+Overfull \hbox (9.0pt too wide) in paragraph at lines 368--369
+ [][] 
+ []
+
+[6 <C:/archives/paper_single-atom/figures/vibes_placeholder.png>]
 No file single_Ba_imaging_paper_1h.bbl.
-[6] (C:\archives\paper_single-atom\single_Ba_imaging_paper_1h.aux) ) 
+[7 <C:/archives/paper_single-atom/figures/vibe_accerlometerSig.png>]
+(C:\archives\paper_single-atom\single_Ba_imaging_paper_1h.aux) ) 
 Here is how much of TeX's memory you used:
- 4346 strings out of 494045
- 58816 string characters out of 3148385
- 135885 words of memory out of 3000000
- 7581 multiletter control sequences out of 15000+200000
+ 4361 strings out of 494045
+ 59206 string characters out of 3148385
+ 144358 words of memory out of 3000000
+ 7594 multiletter control sequences out of 15000+200000
  10657 words of font info for 37 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 42i,6n,35p,1765b,308s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program
- Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/M
-iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.
-9/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
-ype1/public/amsfonts/cm/cmbxti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
-ublic/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/am
-sfonts/cm/cmmi5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
-/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi9.pf
-b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Pro
-gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files
-/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.
-9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
-pe1/public/amsfonts/cm/cmr9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
-/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
-s/cm/cmsy6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy
-7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:
-/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program
- Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti9.pfb>
-Output written on single_Ba_imaging_paper_1h.pdf (6 pages, 494660 bytes).
+ 42i,6n,35p,1799b,308s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Fil
+es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
+/public/amsfonts/cm/cmbxti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
+c/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfon
+ts/cm/cmmi5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmm
+i7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C
+:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program
+ Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
+public/amsfonts/cm/cmr9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/ams
+fonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
+/cmsy6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pf
+b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Pro
+gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Fil
+es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti9.pfb>
+Output written on single_Ba_imaging_paper_1h.pdf (7 pages, 509380 bytes).
 PDF statistics:
- 116 PDF objects out of 1000 (max. 8388607)
+ 124 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 36 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 46 words of extra memory for PDF output out of 10000 (max. 10000000)
 

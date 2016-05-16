@@ -197,6 +197,7 @@ Significant progress on understanding the spectroscopy of Ba in sXe has been mad
 %example of arxiv ref in 2014 nu review, [185]
 
 \section{Apparatus and Method}
+\label{sec:apparatus}
 
 The apparatus for depositing and observing Ba/Ba\textsuperscript{+} deposits in sXe is described in \cite{Mong2015}.  Important components are shown in Fig. \ref{fig:apparatus}.  The source of Ba\textsuperscript{+} is an ion beam at 2000~eV, filtered to select Ba\textsuperscript{+} with an E$\times$B velocity filter.  A set of pulsing plates produces 1-$\mu$s pulses for depositing small numbers of ions.  The spectra of Ba\textsuperscript{+} ion deposits in the sXe matrix exhibit peaks known to be due to neutral Ba atoms \cite{Mong2015}.  Thus some percentage of the ions neutralize in the matrix, but the fraction has not yet been determined.  An alternative source of neutral Ba is a BaAl$_{4}$ getter wire which can be moved into the beam path and heated to emit Ba atoms toward the sample.  However, it is challenging to achieve low Ba flux with this source and to calibrate it.
 
@@ -214,6 +215,8 @@ In this work, deposits are made with the sapphire window at around 50~K, partly 
 The excitation laser, a Coherent 599 cw dye laser with Rhodamine 6G dye pumped by the 514-nm line of a Lexel 3500 argon ion laser, enters from the back side of the window.  Ba fluorescence light is collected and collimated by a 50~mm Nikon camera lens.  A band-pass filter with FWHM of 20~nm passes just the 619-nm fluorescence peak.  A 200~mm Nikon camera lens then focuses the image onto a liquid nitrogen cooled CCD, resulting in an image of $4 \times$ magnification.  Each of the 20$\times$20 $\mu$m pixels of the CCD represents approximately a 5$\times$5 $\mu$m area on the sXe sample.
 
 For a given laser intensity, the smallest focus possible is desired for optimal signal-to-noise from single atoms.  To achieve this, an aspherical lens of 7.9~cm focal length \cite{asphere} is used to minimize spherical aberration, and a fused silica optical flat of 1~cm thickness is placed at 10$^{\circ}$ after the lens in order to compensate for astigmatism caused by the tilted sapphire window (Fig. \ref{fig:apparatus}).
+
+Vibrations of the sapphire relative to the excitation laser must also be considered, as this will increase the area of laser exposure, and thus the number a Ba atoms illuminated.  Though the number of Ba atoms instantaneously exposed is independent of vibrations, reducing the effectively exposed area is desirable in clarifying the definition of the laser region.  To reduce the exposed region, a shutter, placed the laser path, is synchronized with the signal from an accelerometer on the outside of the cryostat, such that the laser exposure is reduced to one lobe of the sinusoidal vibration.  Measurements of these vibrations and the effect of the synchronized shutter are discussed in Section \ref{subsec:vibes}.
 
 \section{Results}
 \label{sec:results}
@@ -236,11 +239,11 @@ A typical image made with a focused laser beam at 570~nm is shown in Fig. \ref{f
 %raw_14-atom_labels
 %Pixels are $5~\mu$m$ \times 5~\mu$m.
 
-The number of Ba\textsuperscript{+} ions deposited within the 1/e radius of the laser beam gives a rough upper limit to the number of Ba atoms responsible for the observed signal.  For typical ion pulses of 13~fC/pulse and focused laser 1/e\textsuperscript{2} radii of w$_{0x}$ = 2.06~$\mu$m and w$_{0y}$ = 2.66~$\mu$m, this results in about 0.035 Ba\textsuperscript{+} ions/pulse in the 1/e intensity laser region.  The signal in Fig. \ref{fig:image_example} corresponds to a deposit of about 10 Ba\textsuperscript{+} ions into the laser region, and is therefore roughly due to $\leq 10$ Ba atoms.  Deposits of $\leq 39$, $\leq 3$, and $\leq 1$ Ba atoms are shown in Fig. \ref{fig:XeBaXe}a,b,c, respectively, with Xe-only deposits made before and after each Ba\textsuperscript{+} deposit.  The background level is determined by averaging the summed CCD counts in the focused laser region from the two surrounding Xe-only deposits for each Ba\textsuperscript{+} deposit.  The Ba fluorescence counts are determined by subtracting this background from the total counts in the same laser beam region in the image of the Ba\textsuperscript{+} deposit.  A significant finding is that after a large deposit of $\leq 6.1 \times 10^4$ Ba atoms, the background in the next Xe-only deposit is the same as the Xe-only run before this deposit.  This is important for the implementation of this Ba tagging method in nEXO, i.e., false positives will not occur from previous Ba tags.
+The number of Ba\textsuperscript{+} ions deposited within the 1/e radius of the laser beam gives a rough upper limit to the number of Ba atoms responsible for the observed signal.  For typical ion pulses of 13~fC/pulse and focused laser 1/e\textsuperscript{2} radii of w$_{0x}$ = 2.06~$\mu$m and w$_{0y}$ = 2.66~$\mu$m, this results in about 0.035 Ba\textsuperscript{+} ions/pulse in the 1/e intensity laser region.  The signal in Fig. \ref{fig:image_example} corresponds to a deposit of about 10 Ba\textsuperscript{+} ions into the laser region, and is therefore roughly due to $\leq 10$ Ba atoms.  Deposits of $\leq 39$, $\leq 3$, and $\leq 1$ Ba atoms are shown in Fig. \ref{fig:XeBaXe}a,b,c, respectively, with Xe-only deposits made before and after each Ba\textsuperscript{+} deposit.  The background level is determined by averaging the summed CCD counts in the focused laser region from the two surrounding Xe-only deposits for each Ba\textsuperscript{+} deposit.  The Ba fluorescence counts are determined by subtracting this background from the total counts in the same laser beam region in the image of the Ba\textsuperscript{+} deposit.  A significant finding is that {\color{gray}after a large deposit of $\leq 6.1 \times 10^4$ Ba atoms, the background in the next Xe-only deposit is the same as the Xe-only run before this deposit, as shown in Fig. \ref{fig:XeBaXeLarge}.\emph{[We need one with an actual preceding Xe run, and \textbf{need to look on lower scale at any BG change.} Also, \textbf{may want not quite so large a deposit} -- we actually don't know yet how large deposits affect it]}}  This is important for the implementation of this Ba tagging method in nEXO, i.e., false positives will not occur from previous Ba tags.
 
 \begin{figure}
 \includegraphics[width=0.5\textwidth]{figures/xebaxe_instantaneous_scrunched.png}
-\caption{Images of Ba\textsuperscript{+} deposits yielding (a) $\leq 39$, (b) $\leq 3$, and (c) $\leq 1$ Ba atoms in the focused laser region, with Xe-only deposits done before and after each respective Ba\textsuperscript{+} deposit.  Exposures are 60~s with around 0.15~mW of 570-nm laser excitation.}
+\caption{Images of Ba\textsuperscript{+} deposits yielding (a) $\leq 39$, (b) $\leq 3$, and (c) $\leq 1$ Ba atoms in the focused laser region, with Xe-only deposits done before and after each respective Ba\textsuperscript{+} deposit.  Exposures are 60~s with around 0.15~mW of 570-nm laser excitation. {\color{gray}Needs new.}}
 \label{fig:XeBaXe}
 \end{figure}
 %The samples were deposited at 50~K and observed at 11~K.  
@@ -248,19 +251,21 @@ The number of Ba\textsuperscript{+} ions deposited within the 1/e radius of the 
 
 \begin{figure}
 \includegraphics[width=0.5\textwidth]{figures/xebaxe_largest_instantaneous.png}
-\caption{Image of a Ba\textsuperscript{+} deposit yielding $\leq 6.1 \times 10^4$ Ba atoms with its succeeding Xe-only deposit.  Exposures are 0.5~s with around 1.1~mW of 572-nm laser excitation.}
+\caption{Image of a Ba\textsuperscript{+} deposit yielding $\leq 6.1 \times 10^4$ Ba atoms with its succeeding Xe-only deposit.  Exposures are 0.5~s with around 1.1~mW of 572-nm laser excitation. {\color{gray}Needs new.}}
 \label{fig:XeBaXeLarge}
 \end{figure}
 % The samples were deposited at 50~K and observed at 11~K.  
 
 \begin{figure}
 \includegraphics[width=0.48\textwidth]{figures/lin_just20150807_lin.png}
-\caption{619-nm Ba fluorescence vs. number of ions deposited.  Exposures are 60~s with around 0.15~mW of 570-nm laser excitation.}
+\caption{619-nm Ba fluorescence vs. number of ions deposited.  Exposures are around {\color{gray}?}~s with around {\color{gray}?}~mW of 572-nm laser excitation. {\color{gray}Old: Exposures are 60~s with around 0.15~mW of 570-nm laser excitation.}}
 \label{fig:ctsVsIons}
 \end{figure}
 %  {\color{blue}\emph{Could use better ion beam consistency.}}
 
-The Ba counts vs. Ba\textsuperscript{+} ions deposited in the laser region are plotted in Fig. \ref{fig:ctsVsIons}.  The summed CCD counts in the laser region in sXe of each image is linear with ions deposited, albeit with significant scatter due to ion beam instabilities in this run.  The observed signal corresponds to $3400 \pm 360$~counts/mW per atom with around 0.15~mW of focused 570-nm laser excitation, and 60-s CCD exposures.  Counts are scaled by laser power to account for small variations in laser power.  Background-subtracted images of deposits near the linear trend line are shown in Fig. \ref{fig:train} corresponding to (a) $\leq 10$~atoms, (a) $\leq 3$~atoms, and (a) $\leq 1$~atom.  These represent the expected signal level, with a clear peak at the single-atom level.
+The Ba counts vs. Ba\textsuperscript{+} ions deposited in the laser region are plotted in Fig. \ref{fig:ctsVsIons}.  The summed CCD counts in the laser region in sXe of each image is linear with ions deposited.  The observed signal corresponds to {\color{gray}$3400 \pm 360$}~counts/mW per atom with around {\color{gray}0.15~mW} of focused 572-nm laser excitation, around {\color{gray}?}~s of laser exposure.  Exact exposure times vary slightly according to the total open time of the vibration compensation shutter, as discussed in Section \ref{subsec:vibes}.  Counts are scaled by the integral of the power signal recorded by a power meter after the laser shutter.  Background-subtracted images of deposits near the linear trend line are shown in Fig. \ref{fig:train} corresponding to {\color{gray}(a) $\leq 10$~atoms, (a) $\leq 3$~atoms, and (a) $\leq 1$~atom}.  These represent the expected signal level, with a clear peak at the single-atom level.
+
+{\color{gray}\textbf{Old one, for the 8-7 plot:}  The Ba counts vs. Ba\textsuperscript{+} ions deposited in the laser region are plotted in Fig. \ref{fig:ctsVsIons}.  The summed CCD counts in the laser region in sXe of each image is linear with ions deposited{\color{gray}, albeit with significant scatter due to ion beam instabilities in this run}.  The observed signal corresponds to $3400 \pm 360$~counts/mW per atom with around {\color{gray}0.15~mW} of focused 570-nm laser excitation, and 60-s CCD exposures.  Counts are scaled by laser power to account for small variations in laser power.  Background-subtracted images of deposits near the linear trend line are shown in Fig. \ref{fig:train} corresponding to (a) $\leq 10$~atoms, (a) $\leq 3$~atoms, and (a) $\leq 1$~atom.  These represent the expected signal level, with a clear peak at the single-atom level.}
 %For each point, the counts from a nearby Xe-only run have been subtracted.
 
 %\emph{\color{gray}Maybe show the train thing instead? and re-word (``in the laser beam" and ``one ion depositied?"): A subtracted image of a deposit corresponding to a single Ba atom is shown in Fig. \ref{fig:lego}.  \st{A solitary peak is observed from the Ba in the laser region.}(``need comment on on clear peak")}
@@ -274,7 +279,7 @@ The Ba counts vs. Ba\textsuperscript{+} ions deposited in the laser region are p
 
 \begin{figure}
 \includegraphics[width=0.48\textwidth]{figures/lego_train_fromthesis.png}
-\caption{Subtracted images of 619-nm fluorescence in the focused laser region for runs near the linear trend line in signal vs. ions deposited.  Exposures are 60~s with around 0.15~mW of 570-nm laser excitation.}
+\caption{Subtracted images of 619-nm fluorescence in the focused laser region for runs near the linear trend line in signal vs. ions deposited.  Exposures are 60~s with around 0.15~mW of 570-nm laser excitation. {\color{gray}Needs new.}}
 \label{fig:train}
 \end{figure}
 %The samples were deposited at 50~K and observed at 11~K. 
@@ -286,7 +291,9 @@ The Ba counts vs. Ba\textsuperscript{+} ions deposited in the laser region are p
 %\label{fig:lego}
 %\end{figure}
 
-{\color{red}\textbf{[This part needs to be rewritten with new results on vibration and bleaching -- Vibration will be described and then procedure for eliminating vibration included somewhere in this paper.  You will have to figure out where and how to fit it in]}A Gaussian fit to the images gives a 1/e$^{2}$ radius of 12~$\mu$m, which is much larger than the average laser beam radius of w = 2.4~$\mu$m} {\color{gray}(that part is still true, but it may not meld into the next discussion as well...)}.  {\color{red}Aberrations and vibrations in the collection optics and imperfections in the surface of the sXe layer could contribute to blurring of the image.  Relative motion of the laser and the window could also lead to exposure of more Ba atoms than calculated above.  The latter effect has been checked by observing images of the focused laser relative to a reference point on the sapphire window on time frames down to 50~ms.  Sinusoidal vibrations were observed on the order of 12~$\mu$m in x and 5~$\mu$m in y, due to cryostat vibrations, which corresponds to a total coverage of about 4.7 times the laser region.  However, the signal at a given time still comes from an area the size of the laser region.  Thus, the signals observed correspond to the above-quoted instantaneous number of Ba atoms illuminated according to the laser spot size, though the total number of atoms illuminated is about 4.7 times larger.}
+A Gaussian fit to the images gives a 1/e$^{2}$ radius of 12~$\mu$m, which is much larger than the average laser beam radius of w = 2.4~$\mu$m.  Aberrations and vibrations in the collection optics and imperfections in the surface of the sXe layer could contribute to blurring of the image.
+
+%{\color{red}\textbf{[This part needs to be rewritten with new results on vibration and bleaching -- Vibration will be described and then procedure for eliminating vibration included somewhere in this paper.  You will have to figure out where and how to fit it in]}A Gaussian fit to the images gives a 1/e$^{2}$ radius of 12~$\mu$m, which is much larger than the average laser beam radius of w = 2.4~$\mu$m} {\color{gray}(that part is still true, but it may not meld into the next discussion as well...)}.  {\color{red}Aberrations and vibrations in the collection optics and imperfections in the surface of the sXe layer could contribute to blurring of the image.  Relative motion of the laser and the window could also lead to exposure of more Ba atoms than calculated above.  The latter effect has been checked by observing images of the focused laser relative to a reference point on the sapphire window on time frames down to 50~ms.  Sinusoidal vibrations were observed on the order of 12~$\mu$m in x and 5~$\mu$m in y, due to cryostat vibrations, which corresponds to a total coverage of about 4.7 times the laser region.  However, the signal at a given time still comes from an area the size of the laser region.  Thus, the signals observed correspond to the above-quoted instantaneous number of Ba atoms illuminated according to the laser spot size, though the total number of atoms illuminated is about 4.7 times larger.}
 %The latter effect has been checked by measuring intensity variations of the laser beam and its reflection from the window when cut 50\% by a razor blade.  {\color{blue}Maximum vibrations observed were on the order of ?~$\mu$m and ?~$\mu$m peak-peak for the laser and reflection, respectively}.
 
 %\subsection{Scanned Images}
@@ -330,9 +337,11 @@ Spectra of neutral Ba deposits made with the Ba getter source are compared to sp
 \subsection{Backgrounds}
 \label{sec:backgrounds}
 
-\textbf{\color{red}[This part is somewhat repetitive of the previous discussion to backgrounds in Fig. 2.  It needs to be adapted to tie in and not duplicate much the previous comments.]}{\color{gray}(I have put in Bill's corrs for what's here anyway though)}Very low concentrations of Cr\textsuperscript{3+} in the sapphire bulk (sub-ppb level) produce a strong fluorescence at 693~nm, with a broad tail extending to the 610-630~nm region passed by the band-pass filter.  This produces the faintly visible line through the sapphire window discussed above.  The broad fluorescence is also assigned to Cr3+, as its excitation spectrum is identical to that of the well-known lines around 693~nm.  Commercially available c-plane quality sapphire from Meller Optics and Rubicon Technologies has sufficiently low concentrations for detecting single Ba atoms.
+Very low concentrations of Cr\textsuperscript{3+} in the sapphire bulk (sub-ppb level) produce a strong fluorescence at 693~nm, with a broad tail extending to the 610-630~nm region passed by the band-pass filter.  This produces the faintly visible line through the sapphire window discussed above.  The broad fluorescence is also assigned to Cr\textsuperscript{3+}, as its excitation spectrum is identical to that of the well-known lines around 693~nm.  Commercially available c-plane quality sapphire from Meller Optics and Rubicon Technologies has sufficiently low concentrations for detecting single Ba atoms.
 
-The background emission from the sapphire surface is the main challenge for single Ba imaging.  It has been found that this background can be reduced significantly and semi-permanently by bleaching.  To minimize the surface background, the window is exposed to the laser until the background reaches a steady value, prior to a series of measurements.  {\color{red}The set of deposits used for Fig. \ref{fig:ctsVsIons} was done after about an hour of pre-exposure of the sapphire window to the focused laser.}  \emph{\color{gray}This will be different with the new, ``ultimate" data set, and maybe there will be more discussion here on the bleaching scan, possibly showing scanned images of the bleached region.  Bill:  \textbf{Probably need to rewrite this with more details and possibly an image if new data with scanned bleaching at 100K is used.}}
+The background emission from the sapphire surface is the main challenge for single Ba imaging.  It has been found that this background can be reduced significantly and semi-permanently by bleaching.  A variety of wavelengths have been used for bleaching, including 514.5~nm, 532~nm, 570-572~nm, and 580.5~nm.  The set of deposits used for {\color{gray}Fig. \ref{fig:ctsVsIons}} was done after an overnight raster scan of a 20~mW 532~nm laser, focused to around w$_{0}$ = 10~$\mu$m, in a {\color{gray}?$\times$?}~position grid, with {\color{gray}?}~$\mu$m grid spacing and {\color{gray}?}~s at each position, in a repeating scan.  This amounted to about {\color{gray}?}~minutes of exposure at each location, effectively eliminating the surface background over a region of about {\color{gray}?$\times$?}~$\mu$m, which is large enough to accommodate typical drift of the laser beam throughout a day.  This was done with the sapphire window at 105~K.
+
+%{\color{gray}To minimize the surface background, the window is exposed to the laser until the background reaches a negligible value, prior to a series of measurements.}  {\color{red}The set of deposits used for Fig. \ref{fig:ctsVsIons} was done after about an hour of pre-exposure of the sapphire window to the focused laser.}  \emph{\color{gray}This will be different with the new, ``ultimate" data set, and maybe there will be more discussion here on the bleaching scan, possibly showing scanned images of the bleached region.  Bill:  \textbf{Probably need to rewrite this with more details and possibly an image if new data with scanned bleaching at 100K is used.}}
 %, though its bleaching rate is different from that of the 619-nm Ba emission
 %, also caused by laser excitation.  This is more of a nuisance, as it not as easily distinguished from the Ba in an image
 
@@ -340,11 +349,32 @@ The background emission from the sapphire surface is the main challenge for sing
 
 %\emph{\color{gray}Do we want a bleaching section?}
 
+\subsection{Vibration Compensation}
+\label{subsec:vibes}
+
+Vibrations of the sapphire window relative to the excitation laser were studied by observing movement of a ``dust spot" on the sapphire window relative to the image of the laser on time scales down to 50 ms.  Dust spots are highly scattering objects which are fixed to the sapphire window.  They can be avoided when imaging Ba deposits, however they are useful in studies like this.  The relative position of a dust spot and the laser, determined with 2D Gaussian fits to the raw images, are plotted in Fig. \ref{fig:vibes}a, with a sampling of {\color{gray}200 50-}ms frames, each separated by {\color{gray}?} s of readout time.  2D Gaussian functions of width w$_{x}$ = 2.06~$\mu$m and w$_{y}$ = 2.66~$\mu$m, representing the minimum laser spot size, are overlain on each of these points and summed in Fig. \ref{fig:vibes}b, thus representing the total laser exposure on the sapphire window.  Sinusoidal vibration results in the majority of exposure to occur in two lobes.
+
+% {\color{gray}It was determined that movement of the laser [negligible...]}
+
+As described in Section \ref{sec:apparatus}, a shutter on the laser path was synchronized with the signal from an accelerometer on the cryostat, in order to isolate the exposure to one vibration lobe.  A typical vibration signal is shown in Fig. \ref{fig:vibeSig}.  The 2.5~Hz frequency of the large spikes in the vibration signal is consistent with the audible frequency of the cryostat's He pump.  The shutter is triggered by the large spikes, with a specified delay time and open time.  It was determined that about 30~ms of delay time and 200~ms open time are optimal, resulting in laser exposure on only one of the vibration lobes, as shown in Fig. \ref{fig:vibes}c. ...describe d and e?
+
+\begin{figure}
+\includegraphics[width=0.3\textwidth]{figures/vibes_placeholder.png}
+\caption{Placeholder \emph{[Plotting these on the same range like this makes it more clear.  (e) should really be the smeared one... maybe we don't need (d) and (e)?]}}
+\label{fig:vibes}
+\end{figure}
+
+\begin{figure}
+\includegraphics[width=0.5\textwidth]{figures/vibe_accerlometerSig.png}
+\caption{Placeholder.}
+\label{fig:vibeSig}
+\end{figure}
+
 \section{Conclusions}
 
 The 619-nm emission peak observed in deposits of Ba\textsuperscript{+} and Ba in sXe is attributed to neutral Ba in a stable and relatively abundant matrix site.
 %An excitation spectrum and temperature dependence of the fluorescence are reported.
-Images of 619-nm fluorescence in a focused laser region from Ba atoms are achieved down to an average number of Ba atoms at the single-atom level.  Successful detection of Ba atoms in sXe at this level is a significant step toward Ba tagging in nEXO. 
+Images of 619-nm fluorescence in a focused laser region from Ba atoms are achieved down to the single-atom level.  Successful detection of Ba atoms in sXe at this level is a significant step toward Ba tagging in nEXO. 
 
 \section*{Acknowledgements}
 
