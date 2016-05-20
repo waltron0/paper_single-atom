@@ -207,17 +207,113 @@ The apparatus for depositing and observing Ba/Ba\textsuperscript{+} deposits in 
 \label{fig:apparatus}
 \end{figure}
 
-Deposits are made on a cold sapphire window tilted at 45$^{\circ}$.  To create a sample, Xe gas is directed toward the window using a leak valve. The Xe gas freezes on the window and forms a sXe matrix with a thickness of around half a micron.  This is initiated a few seconds prior to the Ba deposit, continues during the Ba deposit, and is turned off a few seconds after the Ba deposit.
+Deposits are made on a cold sapphire window tilted at {\color{red}40-45}$^{\circ}$\emph{\color{gray}[Should Chris measure what it is for these runs?]}.  To create a sample, Xe gas is directed toward the window using a leak valve. The Xe gas freezes on the window and forms a sXe matrix with a thickness of around half a micron.  This is initiated a few seconds prior to the Ba deposit, continues during the Ba deposit, and is turned off a few seconds after the Ba deposit.
 
 In this work, deposits are made with the sapphire window at around 50~K, partly to reduce hydrogen content in the matrix, as hydrogen condenses well below 50~K in vacuum \cite{Mong2015}.  The window is then cooled to 11~K for observation.  Deposits made at 50~K result in higher 619-nm signal than those made at 11~K.  Xe deposition at around 30~nm/s also results in higher 619-nm signal, as compared to lower leak rates, while not being so high as to produce a frosty Xe matrix.  An experiment cycle consists of a deposit at 50 K, a fluorescence observation at 11 K, and then the deposit is evaporated by heating the window to 100 K.  Many deposits are made in a day with varying numbers of ions deposited, as well as periodic Xe-only deposits to establish the background.
 %, likely due to a higher population of 619-nm matrix sites
 
 The excitation laser, a Coherent 599 cw dye laser with Rhodamine 6G dye pumped by the 514-nm line of a Lexel 3500 argon ion laser, enters from the back side of the window.  Ba fluorescence light is collected and collimated by a 50~mm Nikon camera lens.  A band-pass filter with FWHM of 20~nm passes just the 619-nm fluorescence peak.  A 200~mm Nikon camera lens then focuses the image onto a liquid nitrogen cooled CCD, resulting in an image of $4 \times$ magnification.  Each of the 20$\times$20 $\mu$m pixels of the CCD represents approximately a 5$\times$5 $\mu$m area on the sXe sample.
 
-For a given laser intensity, the smallest focus possible is desired for optimal signal-to-noise from single atoms.  To achieve this, an aspherical lens of 7.9~cm focal length \cite{asphere} is used to minimize spherical aberration, and a fused silica optical flat of 1~cm thickness is placed at 10$^{\circ}$ after the lens in order to compensate for astigmatism caused by the tilted sapphire window (Fig. \ref{fig:apparatus}).
-
-Vibrations of the sapphire relative to the excitation laser must also be considered, as this will increase the area of laser exposure, and thus the number a Ba atoms illuminated.  To reduce the exposed region, a shutter, placed the laser path, is synchronized with the signal from an accelerometer on the outside of the cryostat, such that the laser exposure is reduced to one lobe of the vibration.  Measurements of these vibrations and the effectiveness of the synchronized shutter are discussed in Section \ref{subsec:vibes}.
+For a given laser intensity, the smallest focus possible is desired for optimal signal-to-noise from single atoms.  To achieve this, an aspherical lens of 7.9~cm focal length \cite{asphere} is used to minimize spherical aberration, and a fused silica optical flat of 1~cm thickness is placed at 6$^{\circ}$ after the lens in order to compensate for astigmatism caused by the tilted sapphire window (Fig. \ref{fig:apparatus}).  Vibrations of the sapphire relative to the excitation laser must also be considered, as this will increase the area of laser exposure, and thus the number a Ba atoms illuminated.  Vibration compensation is discussed in Section \ref{subsec:vibes}. %  To reduce the exposed region, a shutter, placed the laser path, is synchronized with the signal from an accelerometer on the outside of the cryostat, such that the laser exposure is reduced to one lobe of the vibration.  Measurements of these vibrations and the effectiveness of the synchronized shutter are discussed in Section \ref{subsec:vibes}.
 %was in 1h:  Though the number of Ba atoms instantaneously exposed is independent of vibrations, reducing the effectively exposed area is desirable in clarifying the definition of the laser region.
+
+\subsection{Vibration Compensation}
+\label{subsec:vibes}
+
+\begin{figure}
+%\includegraphics[width=0.3\textwidth]{figures/vibes_placeholder.png}
+\includegraphics[width=0.5\textwidth]{figures/vibes_avepos_placeholder_100msShutter.png}
+\caption{change labels to add the 40ms of natural delay, make axes microns}
+\label{fig:vibes}
+\end{figure}
+
+%\begin{figure}
+%\includegraphics[width=0.3\textwidth]{figures/vibes_placeholder.png}
+%\includegraphics[width=0.5\textwidth]{figures/vibes_a.png}
+%~
+%\includegraphics[width=0.5\textwidth]{figures/vibes_b.png}
+%~
+%\includegraphics[width=0.5\textwidth]{figures/vibes_c.png}
+%\caption{\emph{Explain in caption how (b) and (c) are 1-amplitude gaus sums of [x] points or whatever they actually are...\textbf{and magnitudes are different, I guess there are more points in c?} Get axis labels/titles same size.}}
+%\label{fig:vibes}
+%\end{figure}
+%  (e) should really be the smeared one... maybe we don't need (d) and (e)?
+
+Vibrations of the sapphire window relative to the excitation laser were studied by observing movement of a ``dust spot" on the sapphire window relative to the image of the laser on time scales of 100 ms, with the band-pass filter removed.  Dust spots are highly scattering objects which are fixed to the sapphire window.  They can be avoided when imaging Ba deposits, however they are useful in studies like this.
+
+The major vibration is caused by the cryostat He pump, which pulses with a frequency of about 2.5~Hz.  To isolate the laser exposure to a smaller segment of this vibration region, a shutter, placed in the laser path, is synchronized with the signal from an accelerometer on the outside of the cryostat.  The shutter is triggered by the accelerometer with a specified delay time and open time.  The relative position between the sapphire window and the laser, averaged over about 60 points, is shown in Fig. \ref{fig:vibes} for several different delay times.  It was determined that about 40~ms of delay time and 200~ms open time are optimal, resulting in laser exposure localized to the lower right region. %on only one of the vibration lobes, as shown in Fig. \ref{fig:vibes}c.
+%A typical vibration signal is shown in Fig. \ref{fig:vibeSig}.
+% ...describe d and e?
+
+%The relative position of a dust spot and the laser, determined with 2D Gaussian fits to the raw images, are plotted in Fig. \ref{fig:vibes}a, with a sampling of {\color{gray}200 50-}ms frames, each separated by {\color{gray}?} s of readout time.  2D Gaussian functions of width w$_{x}$ = 2.06~$\mu$m and w$_{y}$ = 2.66~$\mu$m, representing the minimum laser spot size, are overlain on each of these points and summed in Fig. \ref{fig:vibes}b, thus representing the total laser exposure on the sapphire window.  Sinusoidal vibration results in the majority of exposure occurring in two lobes.
+
+% {\color{gray}It was determined that movement of the laser [negligible...]}
+
+%\begin{figure}
+%\includegraphics[width=0.5\textwidth]{figures/vibes_accelerometrSig.png}
+%\caption{}
+%\label{fig:vibeSig}
+%\end{figure}
+
+\subsection{Backgrounds}
+\label{sec:backgrounds}
+
+{\color{blue}These two paragraphs need to be combined and/or whatever, made relevant:
+
+A typical image made with a focused laser beam at 570~nm is shown in Fig. \ref{fig:image_example}.  Weak fluorescence of impurities (most likely sub-ppb of Cr\textsuperscript{3+}) in the sapphire window is seen along the laser's path as a weak vertical line.  At both ends, some background emission from the surfaces is observed.  At the front surface (at the top in the image), extra fluorescence is detected from a small number of Ba atoms within the focused laser.
+
+\begin{figure}
+\includegraphics[width=0.3\textwidth]{figures/imageExamp_fromthesis.png}
+\caption{Example image of a Ba\textsuperscript{+} deposit in sXe on a tilted c-plane sapphire window of 0.5~mm thickness.} % excited by a focused 570-nm laser, using a 620-nm fluorescence band-pass filter.}
+\label{fig:image_example}
+\end{figure}
+
+Very low concentrations of Cr\textsuperscript{3+} in the sapphire bulk (sub-ppb level) produce a strong fluorescence at 693~nm, with a broad tail extending to the 610-630~nm region passed by the band-pass filter.  This produces the faintly visible line through the sapphire window discussed above.  The broad fluorescence is also assigned to Cr\textsuperscript{3+}, as its excitation spectrum is identical to that of the well-known lines around 693~nm.  Commercially available c-plane quality sapphire from Meller Optics and Rubicon Technologies has sufficiently low concentrations for detecting single Ba atoms.}
+
+The background emission from the sapphire surface is the main challenge for single Ba imaging.  It has been found that this background can be reduced significantly and semi-permanently by bleaching.  A variety of wavelengths have been used for bleaching, including 514.5~nm, 532~nm, 570-572~nm, and 580.5~nm.  \emph{\color{red}can't say this like this here anymore: }The set of deposits used for {\color{gray}Fig. \ref{fig:ctsVsIons} and \ref{fig:train}} was done after an overnight raster scan of a 20~mW 532~nm laser, focused to around w$_{0}$ = 10~$\mu$m, in a {\color{gray}?$\times$?}~position grid, with {\color{gray}?}~$\mu$m grid spacing and {\color{gray}?}~s at each position, in a repeating scan.  This was done with the sapphire window at 105~K.  As seen in Fig. [scanned im. of hole], this reduced the surface background over a region of about {\color{gray}?$\times$?}~$\mu$m to a level of ???.  This area is large enough to accommodate typical drift of about 1 pixel (5~$\mu$m) of the laser beam throughout a day.
+
+%{\color{gray}To minimize the surface background, the window is exposed to the laser until the background reaches a negligible value, prior to a series of measurements.}  {\color{red}The set of deposits used for Fig. \ref{fig:ctsVsIons} was done after about an hour of pre-exposure of the sapphire window to the focused laser.}  \emph{\color{gray}This will be different with the new, ``ultimate" data set, and maybe there will be more discussion here on the bleaching scan, possibly showing scanned images of the bleached region.  Bill:  \textbf{Probably need to rewrite this with more details and possibly an image if new data with scanned bleaching at 100K is used.}}
+%, though its bleaching rate is different from that of the 619-nm Ba emission
+%, also caused by laser excitation.  This is more of a nuisance, as it not as easily distinguished from the Ba in an image
+
+%Note that backgrounds due to impurities are not expected in the high-purity lXe environment of nEXO.
+
+%\emph{\color{gray}Do we want a bleaching section?}
+
+\subsection{Identification of 619-nm Peak as Ba in sXe}
+
+Spectra of neutral Ba deposits made with the Ba getter source are compared to spectra of a Ba\textsuperscript{+} deposit in Fig. \ref{fig:ion_getter_ar}.  Identical spectra are observed using the different sources under similar deposit conditions.  This confirms that the images measured are of Ba atoms resulting from neutralization of the incident Ba\textsuperscript{+} ions.  Another peak at 670~nm which is mentioned in \cite{Mong2015} is also attributed to Ba.  No similar fluorescence is observed from deposits of Ar\textsuperscript{+} ions in sXe (Fig. \ref{fig:ion_getter_ar}) at 2000~eV under the same conditions.  This rules out matrix damage, e.g. fluorescent color centers, as the source of the 619-nm peak.  The linearity of the fluorescence signal vs. number og Ba\textsuperscript{+} ions at low flux supports an assignment to atomic Ba, as opposed to molecular Ba$_{2}$
+%Observing Ba in the 619-nm matrix site at the low-energy (thermal) deposit from the getter is also good news for the prospect of grabbing Ba/Ba\textsuperscript{+} on a probe out of lXe.
+%\emph{\color{gray}, though fluorescence vs. ions deposited has not been studied for this peak}
+
+\begin{figure}
+\includegraphics[width=0.48\textwidth]{figures/getter_fromthesis_Ar_vs_Ba.png}
+\caption{Observation of deposits from three different sources in sXe.  Curves are scaled due to different deposit sizes.}
+\label{fig:ion_getter_ar}
+\end{figure}
+%getter_ion_Ar_calibrated
+
+%Ion currents of 30~nA and Xe deposition rates of 50~nm/s result in a Xe:Ba ratio of around 10\textsuperscript{4}:1.  This is 10~x higher than the recommended host:guest ratio [ref that old paper ... well, Brian's thesis says itand it's probably in that book you have to buy] for isolating Ba atoms in the matrix.
+
+%{\color{red}I'm having trouble re-producing this, so maybe we leave it out:  }{\color{gray}Finally, a measurement of the Ba\textsuperscript{+} beam velocity confirms a mass of $137(?) \pm ?$, ruling out any contribution of barium oxide }(But probably not BaHx\textsuperscript{+}){{\color{gray}in the beam.  This is possible by knowing (a) the energy of the ions (2000~eV), (b) the time between the signals in a set of induction plates and the Faraday cup as well as the distance between the two, and (c) the timing of those signals for a pulse of Ar\textsuperscript{+} at the same energy, whose mass we know.  }
+
+%{\color{gray}[Is there a statement we can make about molecules with lighter (O2, N2, H2, ...) being likely to show us mode peaks?]}
+
+
+%\subsection{Temperature Dependence}
+
+%Bad:  The temperature dependence of the 619-nm fluorescence is shown in Fig. \ref{fig:anneal} through three annealing cycles of a deposit made at 11~K.  The first anneal results in an overall larger signal upon returning to 11~K.  In anneal 2, lower fluorescence is observed at higher temperature, but essentially no signal is lost after returning to 11~K.  Anneal 3, to higher temperature of 48~K, does result in loss of overall signal.  {\color{red}[\textbf{If this is confusing or not relevant to the paper, we should leave out the whole subsection of temp. dependence, but not much was said about the 619 peak in the spec. paper.  I meant for this to show the fact that we need to be this cold to observe the peak in vacuum}]}  This temperature dependence of the fluorescence means that the probe in nEXO may need to be moved to a location out of the lXe where it can be cooled to 10 - 15~K.
+
+%\begin{figure}
+%\includegraphics[width=0.5\textwidth]{figures/anneal_green_20140916_runs34-37_bg64_v12_618nm.png}
+%\caption{Observing 619-nm peak through annealing process of a deposit made at 11~K.  {\color{red}[Will need nicer plot if we show this]}}
+%\label{fig:anneal}
+%\end{figure}
+
+%\section{Discussion}
+
+%It is worth noting that the initially lower amplitude of the 619-nm peak, vs. the peaks around 590~nm, does not imply anything about their relative populations.  Different matrix sites can have very different effects on electron transition rates, and fluorescence efficiencies can be quite different.  In fact, the fluorescence efficiency of the 619-nm site is measured to be {\color{red}$1 \times 10^{-5}$}, calculated using the cross section of Ba in sXe reported in \cite{Mong2015}.
+
 \section{Results}
 \label{sec:results}
 
@@ -229,15 +325,8 @@ Vibrations of the sapphire relative to the excitation laser must also be conside
 %\label{fig:excitspec}
 %\end{figure}
 
-A typical image made with a focused laser beam at 570~nm is shown in Fig. \ref{fig:image_example}.  Weak fluorescence of impurities (most likely sub-ppb of Cr\textsuperscript{3+}) in the sapphire window is seen along the laser's path as a weak vertical line.  At both ends, some background emission from the surfaces is observed.  At the front surface (at the top in the image), extra fluorescence is detected from a small number of Ba atoms within the focused laser.
-
-\begin{figure}
-\includegraphics[width=0.3\textwidth]{figures/imageExamp_fromthesis.png}
-\caption{Example image of a Ba\textsuperscript{+} deposit in sXe on a tilted c-plane sapphire window of 0.5~mm thickness.} % excited by a focused 570-nm laser, using a 620-nm fluorescence band-pass filter.}
-\label{fig:image_example}
-\end{figure}
-%raw_14-atom_labels
-%Pixels are $5~\mu$m$ \times 5~\mu$m.
+%moved this to the Backgrounds section since the image is refered to there:
+%A typical image made with a focused laser beam at 570~nm is shown in Fig. \ref{fig:image_example}.  Weak fluorescence of impurities (most likely sub-ppb of Cr\textsuperscript{3+}) in the sapphire window is seen along the laser's path as a weak vertical line.  At both ends, some background emission from the surfaces is observed.  At the front surface (at the top in the image), extra fluorescence is detected from a small number of Ba atoms within the focused laser.
 
 The number of Ba\textsuperscript{+} ions deposited within the 1/e radius of the laser beam gives a rough upper limit to the number of Ba atoms responsible for the observed signal.  For typical ion pulses of 13~fC/pulse and focused laser 1/e\textsuperscript{2} radii of w$_{0x}$ = 2.06~$\mu$m and w$_{0y}$ = 2.66~$\mu$m, this results in about 0.035 Ba\textsuperscript{+} ions/pulse in the 1/e intensity laser region.  The signal in Fig. \ref{fig:image_example} corresponds to a deposit of about 10 Ba\textsuperscript{+} ions into the laser region, and is therefore roughly due to $\leq 10$ Ba atoms.  Deposits of $\leq 39$, $\leq 3$, and $\leq 1$ Ba atoms are shown in Fig. \ref{fig:XeBaXe}a,b,c, respectively, with Xe-only deposits made before and after each Ba\textsuperscript{+} deposit.  The background level is determined by averaging the summed CCD counts in the focused laser region from the two surrounding Xe-only deposits for each Ba\textsuperscript{+} deposit.  The Ba fluorescence counts are determined by subtracting this background from the total counts in the same laser beam region in the image of the Ba\textsuperscript{+} deposit.  A significant finding is that {\color{gray}after a large deposit of $\leq 6.1 \times 10^4$ Ba atoms, the background in the next Xe-only deposit is the same as the Xe-only run before this deposit, as shown in Fig. \ref{fig:XeBaXeLarge}.\emph{[We need one with an actual preceding Xe run, and \textbf{need to look on lower scale at any BG change.} Also, \textbf{may want not quite so large a deposit} -- we actually don't know yet how large deposits affect it]}}  This is important for the implementation of this Ba tagging method in nEXO, so that false positives will not occur from previous Ba tags.
 
@@ -300,84 +389,6 @@ A Gaussian fit to the images gives a 1/e$^{2}$ radius of 12~$\mu$m, which is muc
 %\subsection{Scanned Images}
 
 %\emph{\color{blue}Put scanned image of single atoms here.}
-
-\subsection{Identification of 619-nm Peak as Ba in sXe}
-
-Spectra of neutral Ba deposits made with the Ba getter source are compared to spectra of a Ba\textsuperscript{+} deposit in Fig. \ref{fig:ion_getter_ar}.  Identical spectra are observed using the different sources under similar deposit conditions.  This confirms that the images measured are of Ba atoms resulting from neutralization of the incident Ba\textsuperscript{+} ions.  Another peak at 670~nm which is mentioned in \cite{Mong2015} is also attributed to Ba.  No similar fluorescence is observed from deposits of Ar\textsuperscript{+} ions in sXe (Fig. \ref{fig:ion_getter_ar}) at 2000~eV under the same conditions.  This rules out matrix damage, e.g. fluorescent color centers, as the source of the 619-nm peak.  The linearity of the fluorescence signal vs. number og Ba\textsuperscript{+} ions at low flux supports an assignment to atomic Ba, as opposed to molecular Ba$_{2}$
-%Observing Ba in the 619-nm matrix site at the low-energy (thermal) deposit from the getter is also good news for the prospect of grabbing Ba/Ba\textsuperscript{+} on a probe out of lXe.
-%\emph{\color{gray}, though fluorescence vs. ions deposited has not been studied for this peak}
-
-\begin{figure}
-\includegraphics[width=0.48\textwidth]{figures/getter_fromthesis_Ar_vs_Ba.png}
-\caption{Observation of deposits from three different sources in sXe.  Curves are scaled due to different deposit sizes.}
-\label{fig:ion_getter_ar}
-\end{figure}
-%getter_ion_Ar_calibrated
-
-%Ion currents of 30~nA and Xe deposition rates of 50~nm/s result in a Xe:Ba ratio of around 10\textsuperscript{4}:1.  This is 10~x higher than the recommended host:guest ratio [ref that old paper ... well, Brian's thesis says itand it's probably in that book you have to buy] for isolating Ba atoms in the matrix.
-
-%{\color{red}I'm having trouble re-producing this, so maybe we leave it out:  }{\color{gray}Finally, a measurement of the Ba\textsuperscript{+} beam velocity confirms a mass of $137(?) \pm ?$, ruling out any contribution of barium oxide }(But probably not BaHx\textsuperscript{+}){{\color{gray}in the beam.  This is possible by knowing (a) the energy of the ions (2000~eV), (b) the time between the signals in a set of induction plates and the Faraday cup as well as the distance between the two, and (c) the timing of those signals for a pulse of Ar\textsuperscript{+} at the same energy, whose mass we know.  }
-
-%{\color{gray}[Is there a statement we can make about molecules with lighter (O2, N2, H2, ...) being likely to show us mode peaks?]}
-
-
-%\subsection{Temperature Dependence}
-
-%Bad:  The temperature dependence of the 619-nm fluorescence is shown in Fig. \ref{fig:anneal} through three annealing cycles of a deposit made at 11~K.  The first anneal results in an overall larger signal upon returning to 11~K.  In anneal 2, lower fluorescence is observed at higher temperature, but essentially no signal is lost after returning to 11~K.  Anneal 3, to higher temperature of 48~K, does result in loss of overall signal.  {\color{red}[\textbf{If this is confusing or not relevant to the paper, we should leave out the whole subsection of temp. dependence, but not much was said about the 619 peak in the spec. paper.  I meant for this to show the fact that we need to be this cold to observe the peak in vacuum}]}  This temperature dependence of the fluorescence means that the probe in nEXO may need to be moved to a location out of the lXe where it can be cooled to 10 - 15~K.
-
-%\begin{figure}
-%\includegraphics[width=0.5\textwidth]{figures/anneal_green_20140916_runs34-37_bg64_v12_618nm.png}
-%\caption{Observing 619-nm peak through annealing process of a deposit made at 11~K.  {\color{red}[Will need nicer plot if we show this]}}
-%\label{fig:anneal}
-%\end{figure}
-
-%\section{Discussion}
-
-%It is worth noting that the initially lower amplitude of the 619-nm peak, vs. the peaks around 590~nm, does not imply anything about their relative populations.  Different matrix sites can have very different effects on electron transition rates, and fluorescence efficiencies can be quite different.  In fact, the fluorescence efficiency of the 619-nm site is measured to be {\color{red}$1 \times 10^{-5}$}, calculated using the cross section of Ba in sXe reported in \cite{Mong2015}.
-
-\subsection{Backgrounds}
-\label{sec:backgrounds}
-
-Very low concentrations of Cr\textsuperscript{3+} in the sapphire bulk (sub-ppb level) produce a strong fluorescence at 693~nm, with a broad tail extending to the 610-630~nm region passed by the band-pass filter.  This produces the faintly visible line through the sapphire window discussed above.  The broad fluorescence is also assigned to Cr\textsuperscript{3+}, as its excitation spectrum is identical to that of the well-known lines around 693~nm.  Commercially available c-plane quality sapphire from Meller Optics and Rubicon Technologies has sufficiently low concentrations for detecting single Ba atoms.
-
-The background emission from the sapphire surface is the main challenge for single Ba imaging.  It has been found that this background can be reduced significantly and semi-permanently by bleaching.  A variety of wavelengths have been used for bleaching, including 514.5~nm, 532~nm, 570-572~nm, and 580.5~nm.  The set of deposits used for {\color{gray}Fig. \ref{fig:ctsVsIons} and \ref{fig:train}} was done after an overnight raster scan of a 20~mW 532~nm laser, focused to around w$_{0}$ = 10~$\mu$m, in a {\color{gray}?$\times$?}~position grid, with {\color{gray}?}~$\mu$m grid spacing and {\color{gray}?}~s at each position, in a repeating scan.  This was done with the sapphire window at 105~K.  As seen in Fig. [scanned im. of hole], this reduced the surface background over a region of about {\color{gray}?$\times$?}~$\mu$m to a level of ???.  This area is large enough to accommodate typical drift of about 1 pixel (5~$\mu$m) of the laser beam throughout a day.
-
-%{\color{gray}To minimize the surface background, the window is exposed to the laser until the background reaches a negligible value, prior to a series of measurements.}  {\color{red}The set of deposits used for Fig. \ref{fig:ctsVsIons} was done after about an hour of pre-exposure of the sapphire window to the focused laser.}  \emph{\color{gray}This will be different with the new, ``ultimate" data set, and maybe there will be more discussion here on the bleaching scan, possibly showing scanned images of the bleached region.  Bill:  \textbf{Probably need to rewrite this with more details and possibly an image if new data with scanned bleaching at 100K is used.}}
-%, though its bleaching rate is different from that of the 619-nm Ba emission
-%, also caused by laser excitation.  This is more of a nuisance, as it not as easily distinguished from the Ba in an image
-
-%Note that backgrounds due to impurities are not expected in the high-purity lXe environment of nEXO.
-
-%\emph{\color{gray}Do we want a bleaching section?}
-
-\subsection{Vibration Compensation}
-\label{subsec:vibes}
-
-\begin{figure}
-%\includegraphics[width=0.3\textwidth]{figures/vibes_placeholder.png}
-\includegraphics[width=0.5\textwidth]{figures/vibes_a.png}
-~
-\includegraphics[width=0.5\textwidth]{figures/vibes_b.png}
-~
-\includegraphics[width=0.5\textwidth]{figures/vibes_c.png}
-\caption{\emph{Explain in caption how (b) and (c) are 1-amplitude gaus sums of [x] points or whatever they actually are...\textbf{and magnitudes are different, I guess there are more points in c?} Get axis labels/titles same size.}}
-\label{fig:vibes}
-\end{figure}
-%  (e) should really be the smeared one... maybe we don't need (d) and (e)?
-
-Vibrations of the sapphire window relative to the excitation laser were studied by observing movement of a ``dust spot" on the sapphire window relative to the image of the laser on time scales down to 50 ms, with the band-pass filter removed.  Dust spots are highly scattering objects which are fixed to the sapphire window.  They can be avoided when imaging Ba deposits, however they are useful in studies like this.  The relative position of a dust spot and the laser, determined with 2D Gaussian fits to the raw images, are plotted in Fig. \ref{fig:vibes}a, with a sampling of {\color{gray}200 50-}ms frames, each separated by {\color{gray}?} s of readout time.  2D Gaussian functions of width w$_{x}$ = 2.06~$\mu$m and w$_{y}$ = 2.66~$\mu$m, representing the minimum laser spot size, are overlain on each of these points and summed in Fig. \ref{fig:vibes}b, thus representing the total laser exposure on the sapphire window.  Sinusoidal vibration results in the majority of exposure occurring in two lobes.
-
-% {\color{gray}It was determined that movement of the laser [negligible...]}
-
-{\color{red}As described in Section \ref{sec:apparatus} (not gonna have that other paragraph over there anymore?),} a shutter on the laser path was synchronized with the signal from an accelerometer on the cryostat, in order to isolate the exposure to one vibration lobe.  The 2.5~Hz frequency of the large spikes in the vibration signal is consistent with the audible frequency of the cryostat's He pump.  The shutter is triggered by the large spikes, with a specified delay time and open time.  It was determined that about 40~ms of delay time and 200~ms open time are optimal, resulting in laser exposure on only one of the vibration lobes, as shown in Fig. \ref{fig:vibes}c.
-%A typical vibration signal is shown in Fig. \ref{fig:vibeSig}.
-% ...describe d and e?
-
-\begin{figure}
-\includegraphics[width=0.5\textwidth]{figures/vibes_accelerometrSig.png}
-\caption{}
-\label{fig:vibeSig}
-\end{figure}
 
 \section{Conclusions}
 
