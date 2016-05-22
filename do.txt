@@ -1,3 +1,5 @@
+- just say "scanned with sub-micron translation stages
+
 Need from lab:
 - lin:  with vibe shutter, low BG
 - better XeBaXeLarge, I'd say beginning w/ a more mediodre one, then doing a bug one, in case the big one is actually detrimental (and u wanna know that)
