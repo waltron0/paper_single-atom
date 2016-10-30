@@ -1,19 +1,12 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.6.6)  20 MAY 2016 15:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.7.31)  30 OCT 2016 12:10
 entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
 **single_Ba_imaging_paper_1j.tex
-(C:\archives\paper_single-atom\single_Ba_imaging_paper_1j.tex
-LaTeX2e <2011/06/27>
-Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
-abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
-croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
-lician, german, german-x-2009-06-19, greek, gujarati, hindi, hungarian, iceland
-ic, indonesian, interlingua, irish, italian, kannada, kurmanji, lao, latin, lat
-vian, lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerm
-an, ngerman-x-2009-06-19, nynorsk, oriya, panjabi, pinyin, polish, portuguese, 
-romanian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swis
-sgerman, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, u
-senglishmax, welsh, loaded.
-("C:\Program Files\MiKTeX 2.9\tex\latex\revtex\revtex4-1.cls"
+(./single_Ba_imaging_paper_1j.tex
+LaTeX2e <2016/02/01>
+Babel <3.9q> and hyphenation patterns for 81 language(s) loaded.
+(/usr/share/texlive/texmf-dist/tex/latex/revtex/revtex4-1.cls
 Document Class: revtex4-1 2010/07/25/20:33:00 4.1r (http://publish.aps.org/revt
 ex4/ for documentation)
  Copyright (c) 2009 The American Physical Society.
@@ -73,7 +66,7 @@ Class revtex4-1 Info: Overriding \@vspace, \@vspacer, \@no@pgbk, \@newline, and
 \widetext@top=\box39
 \widetext@bot=\box40
 Class revtex4-1 Info: Selecting society aps on input line 7542.
-("C:\Program Files\MiKTeX 2.9\tex\latex\revtex\aps4-1.rtx"
+(/usr/share/texlive/texmf-dist/tex/latex/revtex/aps4-1.rtx
 File: aps4-1 2010/07/25/20:33:00 4.1r (http://publish.aps.org/revtex4/ for docu
 mentation)
 Class revtex4-1 Info: RevTeX society APS selected on input line 31.
@@ -81,19 +74,19 @@ Class revtex4-1 Info: RevTeX society APS selected on input line 31.
 Class revtex4-1 Info: Selecting journal pra on input line 7544.
 Class revtex4-1 Info: APS journal PRA selected on input line 7545.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\revtex\aps10pt4-1.rtx"
+(/usr/share/texlive/texmf-dist/tex/latex/revtex/aps10pt4-1.rtx
 File: aps10pt4-1 2010/07/25/20:33:00 4.1r (http://publish.aps.org/revtex4/ for 
 documentation)
 Class revtex4-1 Info: RevTeX pointsize 10pt selected on input line 30.
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\textcase\textcase.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/textcase/textcase.sty
 Package: textcase 2004/10/07 v0.07 Text only upper/lower case changing (DPC)
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\ltxmisc\url.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip10
-Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\natbib\natbib.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip44
 \bibsep=\skip45
@@ -102,36 +95,36 @@ LaTeX Info: Redefining \cite on input line 694.
 )
 Class revtex4-1 Info: Repairing natbib's \BibitemShut on input line 7549.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\revtex\revsymb4-1.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/revtex/revsymb4-1.sty
 Package: revsymb4-1 2010/07/25/20:33:00 4.1r (http://publish.aps.org/revtex4/ f
 or documentation)
 LaTeX Info: Redefining \REV@mathfrak on input line 119.
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
-Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
-Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks16
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
-Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2016/01/03 v1.0q Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
-Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
-File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
-Package graphics Info: Driver file: pdftex.def on input line 91.
+Package graphics Info: Driver file: pdftex.def on input line 95.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count95
@@ -139,45 +132,45 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen102
 \Gin@req@width=\dimen103
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\preprint\fullpage.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/preprint/fullpage.sty
 Package: fullpage 1999/02/23 1.1 (PWD)
 \FP@margin=\skip46
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\was\upgreek.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/was/upgreek.sty
 Package: upgreek 2003/02/12 v2.0 (WaS)
 Package upgreek Info: Using Euler Roman for upright Greek on input line 31.
 \symugrf@m=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `ugrf@m' in version `bold'
 (Font)                  U/eur/m/n --> U/eur/b/n on input line 38.
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\tools\verbatim.sty"
-Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
+(/usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
 \every@verbatim=\toks17
 \verbatim@line=\toks18
 \verbatim@in@stream=\read1
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf.sty
 Package: epstopdf 2010/02/09 v2.5 Conversion with epstopdf on the fly (HO)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
 Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty"
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
 Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty"
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
 Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
 Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
 Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
@@ -186,11 +179,11 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 )))
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
 Package ifpdf Info: pdfTeX in PDF mode is detected.
 )
@@ -203,11 +196,15 @@ Package grfext Info: Graphics extension search list:
 (grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 452.
-))
-("C:\Program Files\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+)))
+(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
@@ -221,8 +218,8 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\braket\braket.sty")
-("C:\Program Files\MiKTeX 2.9\tex\latex\soul\soul.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/braket/braket.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/soul/soul.sty
 Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
 \SOUL@word=\toks19
 \SOUL@lasttoken=\toks20
@@ -241,7 +238,9 @@ Class revtex4-1 Info: cite was not loaded (OK!) on input line 17.
 Class revtex4-1 Info: mcite was not loaded (OK!) on input line 17.
 Class revtex4-1 Info: multicol was not loaded (OK!) on input line 17.
 
-(C:\archives\paper_single-atom\single_Ba_imaging_paper_1j.aux)
+(./single_Ba_imaging_paper_1j.aux)
+\openout1 = `single_Ba_imaging_paper_1j.aux'.
+
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
 LaTeX Font Info:    ... okay on input line 17.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
@@ -255,7 +254,7 @@ LaTeX Font Info:    ... okay on input line 17.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
 LaTeX Font Info:    ... okay on input line 17.
 
-("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count96
 \scratchdimen=\dimen107
@@ -269,6 +268,9 @@ LaTeX Font Info:    ... okay on input line 17.
 \makeMPintoPDFobject=\count101
 \everyMPtoPDFconversion=\toks25
 )
+\openout3 = `single_Ba_imaging_paper_1jNotes.bib'.
+
+
 
 Class revtex4-1 Warning: Assuming \noaffiliation for collaboration.
 
@@ -286,24 +288,24 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 Class revtex4-1 Warning: If you want your PACS to appear in your output, use do
 cument class option showpacs.
 
-[1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 Underfull \hbox (badness 2452) in paragraph at lines 202--203
 []\OT1/cmr/m/n/10 The ap-pa-ra-tus for de-posit-ing and ob-serv-ing
  []
 
 Package epstopdf Info: Source file: <figures/cryo_inkscape_chris_full.eps>
-(epstopdf)                    date: 2016-04-20 10:43:14
-(epstopdf)                    size: 193851 bytes
+(epstopdf)                    date: 2016-05-10 11:09:53
+(epstopdf)                    size: 190681 bytes
 (epstopdf)             Output file: <figures/cryo_inkscape_chris_full-eps-conve
 rted-to.pdf>
-(epstopdf)                    date: 2016-04-20 10:43:14
+(epstopdf)                    date: 2016-05-10 11:09:53
 (epstopdf)                    size: 59375 bytes
-(epstopdf)             Command: <epstopdf --outfile=figures/cryo_inkscape_chris
-_full-eps-converted-to.pdf figures/cryo_inkscape_chris_full.eps>
+(epstopdf)             Command: <repstopdf --outfile=figures/cryo_inkscape_chri
+s_full-eps-converted-to.pdf figures/cryo_inkscape_chris_full.eps>
 (epstopdf)             \includegraphics on input line 205.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/cryo_inkscape_chris_full-eps-converted-to.pdf, id=18, 557.08125pt x 48
+<figures/cryo_inkscape_chris_full-eps-converted-to.pdf, id=19, 557.08125pt x 48
 2.80376pt>
 File: figures/cryo_inkscape_chris_full-eps-converted-to.pdf Graphic file (type 
 pdf)
@@ -316,8 +318,7 @@ Overfull \hbox (9.0pt too wide) in paragraph at lines 205--206
  [][] 
  []
 
-[2 <C:/archives/paper_single-atom/figures/cryo_inkscape_chris_full-eps-converte
-d-to.pdf>]
+[2 <./figures/cryo_inkscape_chris_full-eps-converted-to.pdf>]
 <figures/vibes_avepos_placeholder_100msShutter.png, id=31, 602.25pt x 451.6875p
 t>
 File: figures/vibes_avepos_placeholder_100msShutter.png Graphic file (type png)
@@ -336,13 +337,12 @@ File: figures/imageExamp_fromthesis.png Graphic file (type png)
 
 <use figures/imageExamp_fromthesis.png>
 Package pdftex.def Info: figures/imageExamp_fromthesis.png used on input line 2
-66.
+68.
 (pdftex.def)             Requested size: 140.92793pt x 289.45203pt.
- [3 <C:/archives/paper_single-atom/figures/vibes_avepos_placeholder_100msShutte
-r.png>]
+ [3 <./figures/vibes_avepos_placeholder_100msShutter.png>]
 
 LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 273.
+ on input line 274.
 
 <figures/getter_fromthesis_Ar_vs_Ba.png, id=38, 712.16063pt x 505.89pt>
 File: figures/getter_fromthesis_Ar_vs_Ba.png Graphic file (type png)
@@ -351,9 +351,9 @@ File: figures/getter_fromthesis_Ar_vs_Ba.png Graphic file (type png)
 Package pdftex.def Info: figures/getter_fromthesis_Ar_vs_Ba.png used on input l
 ine 290.
 (pdftex.def)             Requested size: 225.4804pt x 160.1667pt.
- [4 <C:/archives/paper_single-atom/figures/imageExamp_fromthesis.png> <C:/archi
-ves/paper_single-atom/figures/getter_fromthesis_Ar_vs_Ba.png>]
-<figures/xebaxe_instantaneous_scrunched.png, id=44, 1120.185pt x 1415.2875pt>
+ [4 <./figures/imageExamp_fromthesis.png> <./figures/getter_fromthesis_Ar_vs_Ba
+.png>]
+<figures/xebaxe_instantaneous_scrunched.png, id=45, 1120.185pt x 1415.2875pt>
 File: figures/xebaxe_instantaneous_scrunched.png Graphic file (type png)
 
 <use figures/xebaxe_instantaneous_scrunched.png>
@@ -365,7 +365,7 @@ Overfull \hbox (9.0pt too wide) in paragraph at lines 334--335
  [][] 
  []
 
-<figures/xebaxe_largest_instantaneous.png, id=45, 1702.36pt x 674.52pt>
+<figures/xebaxe_largest_instantaneous.png, id=46, 1702.36pt x 674.52pt>
 File: figures/xebaxe_largest_instantaneous.png Graphic file (type png)
 
 <use figures/xebaxe_largest_instantaneous.png>
@@ -377,56 +377,60 @@ Overfull \hbox (9.0pt too wide) in paragraph at lines 342--343
  [][] 
  []
 
-<figures/lin_just20150807_lin.png, id=46, 798.985pt x 774.895pt>
+<figures/lin_just20150807_lin.png, id=47, 798.985pt x 774.895pt>
 File: figures/lin_just20150807_lin.png Graphic file (type png)
 
 <use figures/lin_just20150807_lin.png>
 Package pdftex.def Info: figures/lin_just20150807_lin.png used on input line 34
 9.
 (pdftex.def)             Requested size: 225.4804pt x 218.6836pt.
- [5 <C:/archives/paper_single-atom/figures/xebaxe_instantaneous_scrunched.png> 
-<C:/archives/paper_single-atom/figures/xebaxe_largest_instantaneous.png> <C:/ar
-chives/paper_single-atom/figures/lin_just20150807_lin.png>]
-<figures/lego_train_fromthesis.png, id=55, 662.475pt x 731.73375pt>
+
+<figures/lego_train_fromthesis.png, id=48, 662.475pt x 731.73375pt>
 File: figures/lego_train_fromthesis.png Graphic file (type png)
 
 <use figures/lego_train_fromthesis.png>
 Package pdftex.def Info: figures/lego_train_fromthesis.png used on input line 3
-71.
+72.
 (pdftex.def)             Requested size: 225.4804pt x 249.05415pt.
+ [5 <./figures/xebaxe_instantaneous_scrunched.png> <./figures/xebaxe_largest_in
+stantaneous.png> <./figures/lin_just20150807_lin.png>]
+
+LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
+ on input line 399.
 
 No file single_Ba_imaging_paper_1j.bbl.
-[6 <C:/archives/paper_single-atom/figures/lego_train_fromthesis.png>]
-(C:\archives\paper_single-atom\single_Ba_imaging_paper_1j.aux) ) 
+[6 <./figures/lego_train_fromthesis.png>] (./single_Ba_imaging_paper_1j.aux) ) 
 Here is how much of TeX's memory you used:
- 4354 strings out of 494045
- 59112 string characters out of 3148385
- 135930 words of memory out of 3000000
- 7588 multiletter control sequences out of 15000+200000
- 10657 words of font info for 37 fonts, out of 3000000 for 9000
- 715 hyphenation exceptions out of 8191
- 42i,6n,35p,1801b,331s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Fil
-es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTe
-X 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fo
-nts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
-/public/amsfonts/cm/cmbxti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
-c/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfon
-ts/cm/cmmi5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmm
-i7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C
-:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program
- Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files/MiK
-TeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fo
-nts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
-public/amsfonts/cm/cmr9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/ams
-fonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
-/cmsy6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pf
-b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Pro
-gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Fil
-es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti9.pfb>
-Output written on single_Ba_imaging_paper_1j.pdf (6 pages, 530800 bytes).
+ 4355 strings out of 493029
+ 59281 string characters out of 6136234
+ 141791 words of memory out of 5000000
+ 7831 multiletter control sequences out of 15000+600000
+ 10657 words of font info for 37 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 42i,6n,35p,1801b,308s stack positions out of 5000i,500n,10000p,200000b,80000s
+<
+/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7
+.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmti9.pfb>
+Output written on single_Ba_imaging_paper_1j.pdf (6 pages, 512405 bytes).
 PDF statistics:
- 118 PDF objects out of 1000 (max. 8388607)
+ 120 PDF objects out of 1000 (max. 8388607)
+ 76 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
